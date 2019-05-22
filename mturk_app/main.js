@@ -96,17 +96,14 @@ function getArticle() {
 }
 
 function decideSource(article) {
-    let coin = Math.floor(Math.random() * Math.floor(2));
-    if (coin == 1) {
-        return article;
-    } else {
-        console.log("source should be:" + article.source);
-        article.source = allSources[Math.floor(Math.random() * Math.floor(3))];
-        console.log("source was changed to:" + article.source);
-        return article;
-    }
+    console.log("source should be:" + article.source);
+    article.source = allSources[Math.floor(Math.random() * Math.floor(3))];
+    console.log("source was changed to:" + article.source);
+    return article;
 }
 
+
+console.log(decideSource(getArticle()));
 
 
 
