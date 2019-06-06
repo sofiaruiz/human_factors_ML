@@ -1,0 +1,44 @@
+.page1 {
+
+}
+
+.page1 > buttonB {
+    font-size: 20px;
+    background-color: #555555;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+
+.page2 {
+
+}
+
+.page2 > buttonC {
+    font-size: 20px;
+    background-color: #555555;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.page3 {
+
+}
+
+.page3 > buttonD {
+    font-size: 20px;
+    background-color: #555555;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.page4 {
+
+}
+
+.page4 > buttonE {
+    font-size: 20px;
+    background-color: #555555;
+    border-radius: 4px;
+    text-align: center;
+}
